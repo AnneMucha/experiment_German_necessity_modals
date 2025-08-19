@@ -10,7 +10,6 @@ library(purrr)
 library(readr)
 
 # read and inspect file with complete data after participant exclusion
-
 results_native <- read.csv("results_native_complete.csv", encoding = "UTF-8") 
 
 View(results_native)
@@ -400,4 +399,5 @@ anova(model_SPR_verb , model_SPR_verb_no_int)
 # interaction not quite significant at the 0.05 level (p = 0.06285)
 
 q()
+
 
