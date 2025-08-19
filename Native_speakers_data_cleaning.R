@@ -129,10 +129,6 @@ listD_exclusion <- filter(listD_results, PROLIFIC_ID != "60fd55ed59e7795b518f743
 results_complete <- rbind(listA_exclusion, listB_exclusion, listC_exclusion, listD_exclusion)
 View(results_complete)
 
-# write a new csv file with the complete data
-
-write.csv(results_complete,"/Users/amucha/OneDrive - University of Edinburgh/project_multilingualism/results_native_speakers/results_native_complete.csv", row.names = FALSE)
-
-
 q()
+
 
