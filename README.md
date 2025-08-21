@@ -1,5 +1,5 @@
 # Flavors-of-German-necessity-modals
-This is the repository for an experimental study on the interpretation of German necessity modals "muessen" and "sollen". It currently includes 
+Repository for an experimental study on the interpretation of German necessity modals "muessen" and "sollen". It currently includes 
 - the abstract accepted for Sinn und Bedeutung 2025 with a project description
 - the JavaScript file for creating the online experiment with PCIbex (Zehr and Schwarz, 2018)
 - the raw result files for all 4 latin square lists from the experiment with German native speakers
