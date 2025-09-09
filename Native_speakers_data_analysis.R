@@ -95,7 +95,7 @@ anova(model_accept, model_accept_no_int)
 # p < 0.001 
 
 
-# ----------------------------------------  analyze Seld-paced reading data for main experiment --------------------------------------------------------
+# ----------------------------------------  analyze Self-paced reading data for main experiment --------------------------------------------------------
 
 # filter for SPR data
 results_native_SPR <- filter(results_native, PennElementName == "DashedSentence" & Label != "practice-SPR")
@@ -399,5 +399,6 @@ anova(model_SPR_verb , model_SPR_verb_no_int)
 # interaction not quite significant at the 0.05 level (p = 0.06285)
 
 q()
+
 
 
