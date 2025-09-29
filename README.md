@@ -1,5 +1,5 @@
 # Flavors-of-German-necessity-modals
-Repository for an experimental study on the interpretation of German necessity modals "müssen" and "sollen", comparing native speakers and L2 speakers. 
+Repository for an experimental study on the interpretation of German necessity modals ("müssen" and "sollen"), comparing native speakers and L2 speakers. 
 Currently includes:
 - the abstract accepted for Sinn und Bedeutung 2025 with a project description
 - the poster presented at Sinn und Bedeutung 2025 with the results of the main experiment
