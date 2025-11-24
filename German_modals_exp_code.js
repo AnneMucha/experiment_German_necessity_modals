@@ -18,7 +18,7 @@ newTrial("introduction",
     ,
     newText("header-2", "<h3>Zweck der Befragung:</h3>")
     ,
-    newText("text-2", "In dieser Studie untersuchen wir, ein Forschungsteam der University of Edinburgh, wie Sprecherinnen und Sprecher des Deutschen Sätze verarbeiten und bewerten. Die Studie ist Teil unserer Forschung zu Ähnlichkeiten und Unterschieden zwischen deutschen Muttersprachlern und Deutschlernenden.")
+    newText("text-2", "In dieser Studie untersuchen wir, wie Sprecherinnen und Sprecher des Deutschen Sätze verarbeiten und bewerten. Die Studie ist Teil unserer Forschung zu Ähnlichkeiten und Unterschieden zwischen deutschen Muttersprachlern und Deutschlernenden.")
     ,
     newText("header-3", "<h3>Teilnahmevoraussetzung:</h3>")
     ,
@@ -63,13 +63,11 @@ newTrial("data",
     ,
     newText("h1", "<h2>Datenschutzerklärung</h2>")
     ,
-    newText("data-1", "<b>Vertraulichkeit und Verwendung der Daten.</b> Alle im Laufe der Studie gesammelten Informationen werden gemäß dem Datenschutzgesetz verarbeitet. Um Ihre Privatsphäre zu schützen, geben wir niemals persönliche Informationen (wie Ihren Namen) an Personen außerhalb des Forschungsteams weiter. Ihre Daten werden mit einer eindeutigen Identifikationsnummer und nicht mit Ihrem Namen gekennzeichnet. Bitte beachten Sie, dass wir Ihre Identifikationsnummer vorübergehend erfassen, um eine wiederholte Teilnahme zu verhindern. Wir geben diese Informationen jedoch niemals an Personen außerhalb des Forschungsteams weiter. Wir speichern alle personenbezogenen Daten mithilfe des verschlüsselten Speicherdienstes der University of Edinburgh. Die im Rahmen dieser Studie gesammelten anonymisierten Daten werden für Forschungszwecke verwendet und in einem öffentlich zugänglichen Datenspeicher (Edinburgh DataShare) gespeichert.")
+    newText("data-1", "<b>Vertraulichkeit und Verwendung der Daten.</b> Alle im Laufe der Studie gesammelten Informationen werden gemäß dem Datenschutzgesetz verarbeitet. Um Ihre Privatsphäre zu schützen, geben wir niemals persönliche Informationen (wie Ihren Namen) an Personen außerhalb des Forschungsteams weiter. Ihre Daten werden mit einer eindeutigen Identifikationsnummer und nicht mit Ihrem Namen gekennzeichnet. Bitte beachten Sie, dass wir Ihre Identifikationsnummer vorübergehend erfassen, um eine wiederholte Teilnahme zu verhindern. Wir geben diese Informationen jedoch niemals an Personen außerhalb des Forschungsteams weiter. Wir speichern alle personenbezogenen Daten mithilfe des verschlüsselten Speicherdienstes der University of Edinburgh. Die im Rahmen dieser Studie gesammelten anonymisierten Daten werden für Forschungszwecke verwendet und in einem öffentlich zugänglichen Datenspeicher gespeichert.")
     ,
     newText("data-2", "<p> </p> <b>Welche Datenschutzrechte habe ich?</b> Die University of Edinburgh ist verantwortlich für die von Ihnen bereitgestellten Informationen. Sie haben das Recht, auf die über Sie gespeicherten Informationen zuzugreifen. Ihr Zugriffsrecht können Sie gemäß dem Datenschutzgesetz ausüben. Sie haben auch andere Rechte, darunter das Recht auf Berichtigung, Löschung und Widerspruch. Weitere Informationen, einschließlich des Rechts, eine Beschwerde beim <i>Information Commissioner's Office</i> einzureichen, finden Sie unter <a href= 'https://ico.org.uk/'>www.ico.org.uk</a>. Fragen, Kommentare und Anfragen zu Ihren persönlichen Daten können auch an den Datenschutzbeauftragten der Universität unter <a href='mailto:dpo@ed.ac.uk'>dpo@ed.ac.uk</a> gesendet werden.")
     ,
     newText("data-3", "<p> </p> <b>Freiwillige Teilnahme und Rücktrittsrecht.</b> Ihre Teilnahme ist freiwillig und Sie können aus beliebigen Gründen jederzeit während Ihrer Teilnahme oder innerhalb eines Monats nach Abschluss der Studie von der Studie zurücktreten. Wenn Sie während oder nach der Datenerfassung von der Studie zurücktreten, löschen wir Ihre Daten und es entstehen Ihnen keine Nachteile oder der Verlust von Vorteilen, auf die Sie ansonsten Anspruch haben.")
-    ,
-    newText("data-4", "<p> </p> Wenn Sie Fragen zu dem haben, was Sie gerade gelesen haben, können Sie diese gerne stellen oder sich später an uns wenden. Sie können uns per E-Mail unter <a href='mailto:w.uegaki@ed.ac.uk'>w.uegaki@ed.ac.uk</a> erreichen. Dieses Projekt wurde vom PPLS-Ethikausschuss der University of Edinburgh genehmigt. Diesen können Sie uns erreichen unter Tel. +44 131 650 4020 oder E-mail <a href='mailto:ppls.ethics@ed.ac.uk'>ppls.ethics@ed.ac.uk</a>, wenn Sie Fragen oder Kommentare zu Ihren Rechten als Studienteilnehmer*in haben. <p> </p>")
     ,
     newButton("wait-data", "Weiter zur Einverständniserklärung")
         .center()
