@@ -7,5 +7,6 @@ Currently includes:
 - the R code for analysis and visualisation of the data obtained from native speakers in the main experiment
 - the formatted, combined and cleaned result files from the experiment with L2 German speakers
 - the R code for analysis and visualisation of the combined data from native and L2 speakers in the main experiment
+- the R code for post-hoc analysis of variation between items/non-bouletic modal flavours in the main experiment
 - the R code for analysis and visualisation of the data obtained from native speakers in the filler experiment (testing the modal strength of "müsste" and "sollte")
 - the R code for analysis and visualisation of the combined data from native and L2 speakers in the filler experiment
