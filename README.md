@@ -1,7 +1,8 @@
 # Flavors-of-German-necessity-modals
 Repository for an experimental study on the interpretation of German necessity modals ("müssen" and "sollen"), comparing native speakers and L2 speakers. 
 Currently includes:
-- the complete result files, by speaker group and latin square list
+- the formatted data files from the main experiment, by speaker group and latin square list
+- the formatted data files from two follow up studies on "bouletic" and "reportative" inferences, by latin square list
 - the JavaScript file for real time data collection (reaction times and ratings) with the experiment software PCIbex (Zehr and Schwarz, 2018)
 - R code for data cleaning based on pre-defined exclusion criteria (by example of native speaker data)
 - R code for analysis and visualisation of the data obtained from native speakers 
