@@ -7,5 +7,6 @@ Currently includes:
 - the R code for analysis and visualisation of the data obtained from native speakers 
 - the R code for analysis and visualisation of the combined data from native and L2 speakers
 - the R code for post-hoc analysis of variation between items/non-bouletic modal flavours
+- the R code for follow-up analyses of L2 data including their level of experience as predictor
 - a pdf file "Appendix-A-items" with the target items
 - a pdf file "Appendix-B-instructions" with the instructions for all experiments
