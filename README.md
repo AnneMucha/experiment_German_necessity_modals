@@ -10,5 +10,7 @@ Currently includes:
 - R code for post-hoc analysis of variation between items/non-bouletic modal flavours
 - R code for follow-up analyses of L2 data including their level of experience as predictor
 - R code for analysing the comprehension questions after target items in the SPR task
+- R code for participant exclusion in the two follow-up studies
+- R code for analysis and visualisation of the follow-up-studies (individual studies and combined)
 - a pdf file "Appendix-A-items" with the target items
 - a pdf file "Appendix-B-instructions" with the instructions for all experiments
