@@ -3,7 +3,9 @@ library(dplyr)
 library(ggplot2)
 library(lme4)
 
-# 1. include experience as a predictor for the L2 data -------------------
+# Additional analyses of the L2 data with their experience (= years of learning German) as an additional predictor
+
+# include experience as a predictor for the L2 data -------------------
 L2_data_exp <- read.csv("L2_data_with_experience.csv", encoding = "UTF-8")
 
 # acceptability data
