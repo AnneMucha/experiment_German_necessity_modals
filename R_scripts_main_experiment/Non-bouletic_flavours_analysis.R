@@ -2,6 +2,8 @@ library(readr)
 library(dplyr)
 library(ggplot2)
 
+# Follow-up exploratory analyses of variation between non-bouletic contexts (models are in the main analysys script "L1_L2_combined_analysis_updated")
+
 # load rating data for L1 and L2 speakers
 rating_data_combined <- read.csv("rating_data_combined.csv")
 
