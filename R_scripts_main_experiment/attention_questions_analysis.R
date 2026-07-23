@@ -3,8 +3,9 @@ library(purrr)
 library(readr)
 library(dplyr)
 
-# read data
+# Analysing the error rate in the comprehension questions used in the SPR experiment (for target items)
 
+# read data
 native_data <- read.csv("results_native_complete.csv")
 L2_data <- read.csv("L2_data_with_demographics.csv")
 
