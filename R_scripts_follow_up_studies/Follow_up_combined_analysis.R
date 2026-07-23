@@ -6,6 +6,8 @@ library(plyr)
 library(purrr)
 library(readr)
 
+# Combining the data to correlate the higher-rated inference (bouletic or reportative) with acceptability judgements
+
 # data files with acceptability and inference data in the non-bouletic/sollen condition
 summary_bouletic_inf <- read.csv("item_summary_nb_bouletic.csv", encoding = "UTF-8") 
 summary_reportative_inf <- read.csv("item_summary_nb_report.csv", encoding = "UTF-8") 
