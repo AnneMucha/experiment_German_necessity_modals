@@ -2,8 +2,9 @@ library(plyr)
 library(purrr)
 library(readr)
 
-# read formatted lists
+# Data cleaning/participant exclusion procedure by example of native speaker data
 
+# read formatted lists
 listA_results <- read.csv("listA_results_formatted.csv")
 listB_results <- read.csv("listB_results_formatted.csv")
 listC_results <- read.csv("listC_results_formatted.csv")
@@ -13,12 +14,10 @@ listD_results <- read.csv("listD_results_formatted.csv")
 # --------- Data cleaning: attention checks -------------------------
 
 # filter for SPR attention checks (by list, to see if the groups are still balanced)
-
 library(dplyr)
 listA_attention_SPR <- filter(listA_results, PennElementType == "Controller-Question" & Label == "SPR-trial-attention")
 
 # count number of correct answers by participant (values in "Reading.time" column for questions), threshold at 18 correct answers
-
 listA_attention_SPR_points <- listA_attention_SPR %>% group_by(PROLIFIC_ID) %>%
   summarise(count_ones = sum(Reading.time == 1, na.rm = TRUE))
 
