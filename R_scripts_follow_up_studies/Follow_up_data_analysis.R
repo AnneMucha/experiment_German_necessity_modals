@@ -6,6 +6,8 @@ library(plyr)
 library(purrr)
 library(readr)
 
+# Data analysis of the follow up rating studies (by example of the "bouletic" inference study)
+
 # read and inspect file with complete data after participant exclusion
 results_norming <- read.csv("results_norming_complete.csv", encoding = "UTF-8") 
 
