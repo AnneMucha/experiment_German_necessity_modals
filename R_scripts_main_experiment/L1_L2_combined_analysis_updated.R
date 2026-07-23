@@ -4,6 +4,8 @@ library(ggplot2)
 library(lme4)
 library(ordinal)
 
+# Main data analysis script
+
 # read and inspect cleaned data frame for L2 speakers
 L2_data <- read.csv("L2_data_after_exclusion.csv", encoding = "UTF-8")
 View(L2_data)
@@ -294,7 +296,7 @@ model_reduced3 <- clmm(
 )
 
 summary(model_reduced3)
-anova(model_reduced, model_reduced3) # p = .21
+anova(model_reduced, model_reduced3) 
 
 # testing simple effects:
 pairs(
@@ -347,7 +349,6 @@ data.frame(
   variance = vars,
   sd = sqrt(vars)
 )
-
 
 # analyse self-paced reading data ---------------------------------------------- ----------------------------------------------
 
