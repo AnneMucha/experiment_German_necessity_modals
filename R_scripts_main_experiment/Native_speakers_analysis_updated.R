@@ -3,11 +3,11 @@ library(ordinal)
 library(MASS)
 library(ggplot2)
 library(plyr)
-library(car)
-library(data.table)
 library(scales)
 library(purrr)
 library(readr)
+
+# Exploratory analyses and models for the AJT, native speaker data
 
 # read and inspect file with complete data after participant exclusion
 results_native <- read.csv("results_native_complete.csv", encoding = "UTF-8") 
